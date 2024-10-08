@@ -1,0 +1,117 @@
+.swiper {
+    width: 100%;
+    padding-top: 3.125rem;
+  }
+  
+  .swiper-pagination-bullet,
+  .swiper-pagination-bullet-active {
+    background: #fff;
+  }
+  
+  .swiper-pagination {
+    bottom: 1.25rem !important;
+  }
+  
+  .swiper-slide {
+    width: 18.75rem;
+    height: 28.125rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: self-start;
+  }
+  
+  .swiper-slide h2 {
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.4;
+    margin-bottom: 0.625rem;
+    padding: 0 0 0 1.563rem;
+    text-transform: uppercase;
+  }
+  
+  .swiper-slide p {
+    color: #dadada;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    padding: 0 1.563rem;
+    line-height: 1.6;
+    font-size: 0.75rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  
+  .swiper-slide a {
+    margin: 1.25rem 1.563rem 3.438rem 1.563rem;
+    padding: 0.438em 1.875rem;
+    font-size: 0.9rem;
+  }
+  
+  .swiper-slide a:hover {
+    color: #005baa;
+  }
+  
+  .swiper-slide div {
+    display: none;
+    opacity: 0;
+    padding-bottom: 0.625rem;
+  }
+  
+  .swiper-slide-active div {
+    display: block;
+    opacity: 1;
+  }
+  
+  .swiper-slide--one {
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("https://i.ibb.co/51bktXs/ebe3078c-b0e6-4852-a163-241a5b4e2e8b.jpg") no-repeat 50% 50%/cover;
+  }
+  
+  .swiper-slide--two {
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("https://i.ibb.co/HGBdR0y/Elegance-in-Melody.jpg") no-repeat 50% 50%/cover;
+  }
+  
+  .swiper-slide--three {
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("https://i.ibb.co/85hDBJ6/c57ca2da-de75-4e9f-9699-dc83d1b05d08.jpg") no-repeat 50% 50%/cover;
+  }
+  
+  .swiper-slide--four {
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("https://i.ibb.co/QQxXg6s/2f48fe97-d756-4b6c-8cb8-65bc7e324726.jpg") no-repeat 50% 50%/cover;
+  }
+  
+  .swiper-slide--five {
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("https://i.ibb.co/xz2kSM6/0f612dee-dc8e-47f2-904d-2b0c263c09c7.jpg") no-repeat 50% 50%/cover;
+  }
+  
+  .swiper-3d .swiper-slide-shadow-left,
+  .swiper-3d .swiper-slide-shadow-right {
+    background-image: none;
+  }
+  
+  @media screen and (min-width: 93.75rem) {
+    .swiper {
+      width: 85%;
+    }
+  }
+
+
+@media (max-width: 768px) {
+    .hero .col-lg-4, .hero .col-lg-8 {
+        margin-bottom: 20px;
+    }
+
+    .swiper-wrapper {
+        padding: 0 10px;
+    }
+
+    .swiper-slide h2 {
+        font-size: 1.25rem;
+    }
+
+    .swiper-slide p {
+        font-size: 0.875rem;
+    }
+}
